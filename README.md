@@ -7,12 +7,18 @@
 
 Для работы программы требуется Python 3. Предварительно требуется установить необходимые библиотеки:
 
+```
 $ pip3 install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgrade pip
+```
 
+```
 $ pip3 install --trusted-host pypi.org --trusted-host files.pythonhosted.org configparser
+```
 
 Программа является кроссплатформенной. Она должна работать под Microsoft Windows, Linux, macOS и т.д.
 
 Как склонировать репозиторий с подмодулями (через proxy-сервер):
 
+```
 $ git -c http.proxy="http://proxy.local:8080" clone --config "http.proxy=http://proxy.local:8080" --recurse-submodules https://github.com/imf1ne86/ping_srvs.git && cd ./ping_srvs
+```
